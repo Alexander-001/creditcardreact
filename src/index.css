@@ -1,0 +1,189 @@
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-cards {
+  width: 100%; 
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 270px;
+  text-align: left;
+  padding: 30px;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card p {
+  margin: 0;
+}
+
+.card-front {
+  font-size: 16px;
+  font-family: 'Source Code Pro';
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+}
+
+.card__text {
+  font-size: 30px;
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.card-name {
+  font-size: 24px;
+  padding: 0px;
+}
+
+.card__logo-visa {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.card__strip {
+  background: #000;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.card__signature {
+  float: left;
+  width: 65%;
+  height: 40px;
+  margin-left: 10px;
+  background: #999;
+}
+
+.card__ccv {
+  float: left;
+  margin-top: 5px;
+  padding: 7px;
+  background: #fff;
+  color: #111;
+  line-height: 1;
+}
+
+.options-colors {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.options-colors .button {
+  padding: 2rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.options-colors .button:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.options-colors .button:focus {
+  outline: 0;
+}
+
+.options-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.options-form input {
+  padding: 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #A4A4A4;
+  background-color: #F0F0F0;
+}
+
+.options-form input:focus {
+  outline: none;
+}
+
+.options-form input::placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.options-form .content-inputs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content-inputs .expiration {
+  width: 80%;
+}
+
+.content-inputs .cvv {
+  width: 20%
+}
+
+.options-colors .first-button {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.options-colors .second-button {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,121,9,1) 36%, rgba(0,161,112,1) 91%);
+}
+
+.options-colors .third-button {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,116,106,1) 36%, rgba(97,182,178,1) 91%);
+}
+
+.options-colors .fourth-button {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,0,116,1) 36%, rgba(154,97,182,1) 91%);
+}
+
+.background-first__card {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.background-second__card {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,121,9,1) 36%, rgba(0,161,112,1) 91%);
+}
+
+.background-third__card {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,116,106,1) 36%, rgba(97,182,178,1) 91%);
+}
+
+.background-fourth__card {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,0,116,1) 36%, rgba(154,97,182,1) 91%);
+}
