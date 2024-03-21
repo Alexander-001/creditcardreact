@@ -16,7 +16,7 @@ const App = () => {
   const onChangeTargetNumber = (value) => {
     if (value.length >= 1 && value.length < 17) {
       let valueCharacter = value.match(/.{1,4}/g);
-      setTargetNumber(valueCharacter.join(" "));
+      console.log("chupalo");
     }
   };
 
